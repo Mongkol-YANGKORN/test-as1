@@ -81,3 +81,11 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.checkbox {
+    position: relative; 
+	padding-left: 2.3em;
+	font-size: 1.05em;
+	line-height: 1.7;
+	cursor: pointer;
+}

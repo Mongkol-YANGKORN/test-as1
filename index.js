@@ -6,12 +6,9 @@ function removeTodo(event){
     event.target.parentNode.remove();
 }
 
-
 function checkbox(event){
     event.target.parentNode.checkbox();
-
 }
-
 
 function addTodo(){
     // div
@@ -29,14 +26,12 @@ function addTodo(){
     button.innerHTML = 'Delete';
     button.addEventListener('click', removeTodo);
 
-
-    
+    // input checkbox
     const button2 = document.createElement('input');
     button2.type = 'checkbox';
     button2.classList.add('checkbox-todo');
     button2.innerHTML = 'Checkbox';
     button2.addEventListener('click', checkbox);
-    
 
     // h3, button => div
     todo.append(h3, button, button2);
